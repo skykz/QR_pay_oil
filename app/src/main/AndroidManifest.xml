@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.beksultan.qr_pay">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!--<uses-permission android:name="android.permission.FLASHLIGHT" />-->
+
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_bsg"
+        android:roundIcon="@mipmap/ic_launcher_bsg_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.qrScanner.QrScannerActivity"/>
+        <activity
+            android:name=".ui.authorization.AuthorizationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeAuthorization">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.registration.RegistrationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeAuthorization" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeMain" />
+        <activity
+            android:name=".ui.transaction.TransactionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeHistory" />
+        <activity
+            android:name=".ui.profile.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeProfile"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".ui.payment.PaymentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemePayment" />
+        <activity
+            android:name=".ui.business.director.DirectorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBusiness" />
+        <activity
+            android:name=".ui.business.director.add.AddDepartmentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBusiness" />
+        <activity
+            android:name=".ui.business.head.HeadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBusiness" />
+        <activity
+            android:name=".ui.business.director.edit.EditActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBusiness" />
+        <activity
+            android:name=".ui.business.director.pay.PayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBusiness" />
+        <activity
+            android:name=".ui.business.director.detail.DetailDepartmentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBusiness" />
+        <activity
+            android:name=".ui.base.stafftransaction.StaffTransactionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBusiness" />
+        <activity
+            android:name=".ui.business.head.detail.DepartmentStaffActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBusiness" />
+        <activity
+            android:name=".ui.business.head.add.AddStaffActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBusiness" />
+        <activity
+            android:name=".ui.business.head.pay.PayStaffActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeBusiness" />
+    </application>
+
+</manifest>

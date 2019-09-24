@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">BSG</string>
+
+    //Authorization
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="personal_data">Пожалуйста, введите ваши персональные данные</string>
+    <string name="hint_login">Введите логин</string>
+    <string name="hint_password">Введите пароль</string>
+    <string name="registration">Регистрация</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="to_come_in">Войти</string>
+
+    //Registration
+    <string name="tv_back">Назад</string>
+    <string name="tv_registration">Registration</string>
+    <string name="hint_name_reg">Имя</string>
+    <string name="hint_surname_reg">Фамилия</string>
+    <string name="tv_birthday">Дата рождения (необязательно)</string>
+    <string name="hint_day">ДД</string>
+    <string name="hint_month">ММ</string>
+    <string name="hint_year">ГГГГ</string>
+    <string name="hint_email_reg">Почта</string>
+    <string name="hint_tel">Номер телефона (необязательно)</string>
+    <string name="hint_login_reg">Логин</string>
+    <string name="hint_password_reg">Пароль</string>
+    <string name="text_registration">Зарегистрироваться</string>
+
+    //Transaction
+    <string name="transactions_history">История транзакций</string>
+    <string name="transactions_filter_by_date">Фильтр по дате</string>
+    <string name="transactions_edt_end">C какой даты</string>
+    <string name="transactions_edt_start">По какую дату</string>
+    <string name="transactions_tv_empty">Последние транзакции</string>
+    <string name="tap_to_reload">коснитесь, чтобы перезагрузить.</string>
+    <string name="error_msg_unknown">"Произошла непредвиденная ошибка"</string>
+    <string name="error_msg">Простите! Не удалось загрузить.</string>
+    <string name="btn_retry">Обновить</string>
+    <string name="error_msg_no_internet">Не подключен к Интернету</string>
+    <string name="error_msg_timeout">Сервер слишком долго реагировал.</string>
+
+    //Business
+    <string name="department">Отделы</string>
+    <string name="newDepartment_name">Введите название нового отдела</string>
+    <string name="head_login">Введите логин руководителя отдела</string>
+    <string name="payment">Введите сумму начисления отделам</string>
+    <string name="payment_staff">Введите сумму начисления сотрудникам</string>
+    <string name="hint_name">Название нового отдела</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_cancel">Отменить</string>
+    <string name="btn_search">Поиск</string>
+
+    //DepartmentStaff
+    <string name="department_staff_balance">Баланс: %s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
